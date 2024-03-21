@@ -62,16 +62,20 @@
   align-items: center;
   width: 100%;
   gap: 0.8rem;
-  font-family: 'Roboto', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Roboto", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
 }
 
 .task span {
   flex: 1;
   align-self: flex-start;
-  font-family: 'Lexend';
+  font-family: "Lexend";
 }
 
 .task .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 30px;
   height: 30px;
 }
