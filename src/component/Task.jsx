@@ -20,9 +20,9 @@ function Task({ task, onComplete, onDelete }) {
       >
         {task.title}
       </span>
-      <button className="btn" title="Delete" onClick={() => onDelete(task.id)}>
+      <div className="btn" title="Delete" onClick={() => onDelete(task.id)}>
         ❌
-      </button>
+      </div>
     </div>
   );
 }
