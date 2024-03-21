@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lexend:wght@100..900&family=Montaga&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: unset;
+  padding: unset;
+  box-sizing: border-box;
+}
+
+.App {
+  background-color: #2c3e50;
+  padding: 1.5rem;
+  color: #fff;
+  font-size: 1.5rem;
+  position: relative;
+  height: 100dvh;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Archivo Black";
+  line-height: 3rem;
+  margin-bottom: 1.2rem;
+}
+
+.logo h1 {
+  color: #3498db;
+}
+
+.logo h1 span {
+  color: #27ae60;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(to right, #27ae60, #3498db);
+  height: 12dvh;
+  padding: 0.5rem;
+}
+
+.footer p {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Lexend", Arial, Helvetica, sans-serif;
+}
+
+.footer .percent {
+  font-size: 1.2rem;
+}
