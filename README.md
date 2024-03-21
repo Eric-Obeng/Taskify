@@ -16,10 +16,10 @@ Taskify is an application that allows users to write down all tasks they have, m
    ``` $ cd Taskify ```
 
 3. Install all dependencies
+  
+   ``` $ npm install ```
 
-  ``` $ npm install ```
-
-4. Start the application
+7. Start the application
 
    ```$ npm run dev ```
 
