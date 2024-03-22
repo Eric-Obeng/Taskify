@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import Task from "./Task";
 
 function TaskList({ tasks, onCompleteTask, onDeleteTask }) {
@@ -14,5 +15,15 @@ function TaskList({ tasks, onCompleteTask, onDeleteTask }) {
     </div>
   );
 }
+
+TaskList.propTypes = {
+  tasks: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number.isRequired,
+    })
+  ).isRequired,
+  onCompleteTask: PropTypes.func.isRequired,
+  onDeleteTask: PropTypes.func.isRequired,
+};
 
 export default TaskList;
